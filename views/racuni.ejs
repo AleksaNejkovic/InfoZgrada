@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center">
+    <a class="navbar-brand" href="http://localhost:3000/upravnik/1" style="margin: 0px;">INFO ZGRADA</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="http://localhost:3000/upravnik/1">Početna </a>
+            </li>
+            <li class="nav-item">
+                <span style="color: azure; margin: 0px 10px;">  |  </span>
+            </li>
+
+            <li class="nav-item active" >
+                <a class="nav-link" href="http://localhost:3000/racuni">Računi</a>
+            </li>
+            <li class="nav-item">
+                <span style="color: azure; margin: 0px 10px;" >  |  </span>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="http://localhost:3000/stanari">Stanari</a>
+            </li>
+            <li class="nav-item">
+                <span style="color: azure; margin: 0px 10px;" >  |  </span>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/upravnik_obavestenja">Obaveštenja</a>
+            </li>
+
+        </ul>
+        <form class="form-inline my-2 my-lg-0 justify-content-center">
+
+            <a href="http://localhost:3000/" class="btn btn-info btn-lg" style="width: 136.672px;background-color:#005b7f;border-color:gray">
+                <span class="glyphicon glyphicon-log-out"></span> Odjavi se
+            </a>
+
+        </form>
+
+    </div>
+</nav>
+
+    <div class="row justify-content-center">
+        <div class="col col-md-6 col-lg-3 my-5 zblizi">
+            <div class="okvir">
+                <h5 class="STRUJA">STRUJA</h5>
+                <form action="/racun_struja" method="post">
+                    <input type="text" class="unos1" name="vrednost_kwh" placeholder="Unesite vrednost u kWh" >
+                    <input type="text" class="unos2" name="vrednost_din" placeholder="Unesite cenu u dinarima">
+                    <input type="text" class="unos2" name="datum" placeholder="Datum" style="display: none">
+                <input type="submit" name="dugme" class="dugme" value="Sačuvaj" style="border-color:whitesmoke">
+                </form>
+                <a href="/racun_struja/prikaz" ><button type="button" class="prikazibtn" value="PRIKAŽI">Prikaži</button></a>
+            </div>
+
+        </div>
+        <div class="col col-md-6 col-lg-3 my-5 zblizi">
+            <div class="okvir">
+                <h5 class="VODA">VODA</h5>
+                <form action="/racun_voda" method="post">
+                    <input type="text" class="unos11" name="vrednost_m3" placeholder="Unesite vrednost u m³" >
+                    <input type="text" class="unos2" name="vrednost_din" placeholder="Unesite cenu u dinarima">
+                    <input type="submit" name="dugme"  class="dugme" value="Sačuvaj" style="border-color:whitesmoke">
+                </form>
+                <a href="/racun_voda/prikaz" ><button type="button" class="prikazibtn" value="PRIKAŽI">Prikaži</button></a>
+            </div>
+
+        </div>
+        <div class="col col-md-6 col-lg-3 my-5 zblizi">
+
+            <div class="okvir">
+                <h5 class="ČISTAČ">ČISTAČ</h5>
+                <form action="/racun_cistac" method="post">
+                <input type="text" class="unosc" name="vrednost_din" placeholder="Unesite cenu u dinarima">
+                <input type="submit" name="dugme" class="dugmec" value="Sačuvaj" style="border-color:whitesmoke">
+                </form>
+                <a href="/racun_cistac/prikaz" ><button type="button" class="prikazibtn" value="PRIKAŽI">Prikaži</button></a>
+            </div>
+
+        </div>
+        <div class="col col-md-6 col-lg-3 my-5 zblizi">
+            <div class="okvir">
+                <h5 class="ZGRADA">OSTALO</h5>
+                <form action="/racun_zgrada" method="post">
+                    <input type="text" class="unosc" name="vrednost_din" placeholder="Unesite cenu u dinarima">
+                    <input type="submit" name="dugme" class="dugmec" value="Sačuvaj" style="border-color:whitesmoke">
+                </form>
+                <a href="/racun_zgrada/prikaz" ><button type="button" class="prikazibtn" value="PRIKAŽI">Prikaži</button></a>
+            </div>
+
+        </div>
+    </div>
+
+
+
+<script type="text/javascript" src="/jquery.js"></script>
+<script type="text/javascript" src="/js/bootstrap.js"></script>
+</body>
+</html>

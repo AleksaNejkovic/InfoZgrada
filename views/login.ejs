@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+
+</head>
+<body>
+<div class="container">
+    <div class="row justify-content-center my-5">
+
+        <img src="/images/logo1.png" width="500px" height="300px">
+
+    </div>
+
+
+    <div class="row justify-content-center">
+        <div class="col-lg-6 col-xs-12">
+
+
+            <form action="/auth" method="post">
+                <!--email-->
+
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+
+                <!--password-->
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" name="broj_telefona" id="password" required>
+                </div>
+
+                <!--button-->
+                <center><input type="submit" name="dugme" class="dugme" value="POTVRDI" style="margin-top:20px!important;"></center>
+
+            </form>
+
+
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <a href="/"><button type="button" class="dugme" style="width: 200px;">Nazad na odabir</button></a>
+    </div>
+</div>
+    <script type="text/javascript" src="/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>

@@ -1,0 +1,517 @@
+body {
+  background: whitesmoke;
+  padding: 0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #17a2b8;
+  text-decoration: none;
+}
+a:hover, a:visited{
+  text-decoration: none;
+}
+
+
+
+.btn-primary{
+  width:180px;
+  margin:5px;
+}
+.btn-info:hover{
+    transition-duration: 0.5s;
+    background-color: whitesmoke!important;
+    color: #005b7f!important;
+    border-color:#005b7f!important;
+}
+
+.navbar-nav {
+  float:none;
+  margin:0 auto;
+  display: block;
+  text-align: center;
+}
+
+.navbar-nav > li {
+  display: inline-block;
+  float:none;
+  font-size: 18px;
+}
+.navbar-nav > li:hover{
+  display: inline-block;
+  float:none;
+  font-size: 19px;
+  transition-duration: 0.3s;
+
+}
+.navbar .navbar-collapse {
+  text-align: left;
+
+}
+
+table, th, td{
+  vertical-align: middle!important;
+  width: 11em;
+  height: 4.2em;
+}
+#edit{
+  border-radius: 7px;
+  border:1px solid red;
+  height: 35px;
+  padding: 10px;
+  outline: none;
+}
+#edit:hover{
+  border-radius: 7px;
+  border:2px solid green;
+  height: 35px;
+  padding: 10px;
+}
+#edit:focus{
+  border-radius: 7px;
+  border:2px solid green;
+  height: 35px;
+  padding: 10px;
+}
+#acticity{
+  width: 300px;
+  height: 100px;
+
+}
+top{
+  vertical-align: top;
+}
+.okvir{
+
+  border-radius: 20px;
+  background-color: rgb(225, 225, 225);
+  width: 300px;
+  height: 400px;
+  text-align: center;
+  float:none;
+  margin:0 auto;
+  display: block;
+  text-align: center;
+
+}
+.unos1{
+  border-width: 1px;
+  border-color: #707070;
+  border-style: solid;
+  border-radius: 13px;
+  background-color: rgb(246, 246, 246);
+  width: 250px;
+  height: 40px;
+  margin:auto;
+  margin-top: 85px;
+  padding: 10px;
+  background-image: url('/images/jedinica1.png');
+  background-repeat: no-repeat;
+  background-position: 184px;
+  outline: none;
+
+}
+.unos11{
+  border-width: 1px;
+  border-color: #707070;
+  border-style: solid;
+  border-radius: 13px;
+  background-color: rgb(246, 246, 246);
+  width: 250px;
+  height: 40px;
+  margin:auto;
+  margin-top: 85px;
+  padding: 10px;
+  background-image: url('/images/jedinica3.png');
+  background-repeat: no-repeat;
+  background-position: 184px;
+  outline: none;
+}
+.unos1:hover{
+  border-width: 2px;
+  border-color: #707070;
+  border-style: solid;
+  border-radius: 13px;
+  background-color: rgb(246, 246, 246);
+  width: 250px;
+  height: 40px;
+  margin:auto;
+  margin-top: 85px;
+  padding: 10px;
+  background-image: url('/images/jedinica1.png');
+  background-repeat: no-repeat;
+  background-position: 184px;
+  outline: none;
+
+}
+.unos11:hover{
+  border-width: 2px;
+  border-color: #707070;
+  border-style: solid;
+  border-radius: 13px;
+  background-color: rgb(246, 246, 246);
+  width: 250px;
+  height: 40px;
+  margin:auto;
+  margin-top: 85px;
+  padding: 10px;
+  background-image: url('/images/jedinica3.png');
+  background-repeat: no-repeat;
+  background-position: 184px;
+  outline: none;
+}
+.unos1:focus{
+  border-width: 2px;
+  border-color: #707070;
+  border-style: solid;
+  border-radius: 13px;
+  background-color: rgb(246, 246, 246);
+  width: 250px;
+  height: 40px;
+  margin:auto;
+  margin-top: 85px;
+  padding: 10px;
+  background-image: url('/images/jedinica1.png');
+  background-repeat: no-repeat;
+  background-position: 184px;
+  outline: none;
+
+}
+unos11:focus{
+  border-width: 2px;
+  border-color: #707070;
+  border-style: solid;
+  border-radius: 13px;
+  background-color: rgb(246, 246, 246);
+  width: 250px;
+  height: 40px;
+  margin:auto;
+  margin-top: 85px;
+  padding: 10px;
+  background-image: url('/images/jedinica3.png');
+  background-repeat: no-repeat;
+  background-position: 184px;
+  outline: none;
+}
+.unos2{
+  border-width: 1px;
+  border-color: #707070;
+  border-style: solid;
+  border-radius: 13px;
+  background-color: rgb(246, 246, 246);
+  width: 250px;
+  height: 40px;
+  margin:auto;
+  margin-top: 30px;
+  padding: 10px;
+  background-image: url('/images/jedinica2.png');
+  background-repeat: no-repeat;
+  background-position: 184px;
+  outline: none;
+
+}
+.unos2:hover{
+  border-width: 2px;
+  border-color: #707070;
+  border-style: solid;
+  border-radius: 13px;
+  background-color: rgb(246, 246, 246);
+  width: 250px;
+  height: 40px;
+  margin:auto;
+  margin-top: 30px;
+  padding: 10px;
+  background-image: url('/images/jedinica2.png');
+  background-repeat: no-repeat;
+  background-position: 184px;
+  outline: none;
+
+}
+.unos2:focus{
+  border-width: 2px;
+  border-color: #707070;
+  border-style: solid;
+  border-radius: 13px;
+  background-color: rgb(246, 246, 246);
+  width: 250px;
+  height: 40px;
+  margin:auto;
+  margin-top: 30px;
+  padding: 10px;
+  background-image: url('/images/jedinica2.png');
+  background-repeat: no-repeat;
+  background-position: 184px;
+  outline: none;
+}
+.unosc{
+  border-width: 1px;
+  border-color: #707070;
+  border-style: solid;
+  border-radius: 13px;
+  background-color: rgb(246, 246, 246);
+  width: 250px;
+  height: 40px;
+  margin:auto;
+  margin-top: 120px;
+  padding: 10px;
+  background-image: url('/images/jedinica2.png');
+  background-repeat: no-repeat;
+  background-position: 184px;
+  outline: none;
+}
+.unosc:hover{
+  border-width: 2px;
+  border-color: #707070;
+  border-style: solid;
+  border-radius: 13px;
+  background-color: rgb(246, 246, 246);
+  width: 250px;
+  height: 40px;
+  margin:auto;
+  margin-top: 120px;
+  padding: 10px;
+  background-image: url('/images/jedinica2.png');
+  background-repeat: no-repeat;
+  background-position: 184px;
+  outline: none;
+}
+.unosc:focus{
+  border-width: 2px;
+  border-color: #707070;
+  border-style: solid;
+  border-radius: 13px;
+  background-color: rgb(246, 246, 246);
+  width: 250px;
+  height: 40px;
+  margin:auto;
+  margin-top: 120px;
+  padding: 10px;
+  background-image: url('/images/jedinica2.png');
+  background-repeat: no-repeat;
+  background-position: 184px;
+  outline: none;
+}
+.dugme{
+  border-width: 1px;
+
+  border-style: solid;
+  border-radius: 13px;
+  background-color: rgb(0, 91, 127);
+  width: 145px;
+  height: 40px;
+  text-align: center;
+  color: whitesmoke;
+  font-family: Franklin Gothic Heavy;
+  font-size: 23px;
+  margin-top: 45px;
+
+
+}
+.dugme:hover{
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 13px;
+  background-color: whitesmoke;
+  width: 155px;
+  height: 45px;
+  text-align: center;
+  border-color: rgb(0, 91, 127)!important;
+  color: rgb(0, 91, 127);
+  font-family: Franklin Gothic Heavy;
+  font-size: 23px;
+  margin-top: 45px;
+  transition-duration: 1s;
+
+
+}
+.dugmec{
+   border-width: 1px;
+   border-color: rgb(0, 0, 0);
+   border-style: solid;
+   border-radius: 13px;
+   background-color: rgb(0, 91, 127);
+   width: 145px;
+   height: 40px;
+   text-align: center;
+   color: whitesmoke;
+   font-family: Franklin Gothic Heavy;
+   font-size: 23px;
+   margin-top: 80px;
+
+}
+.dugmec:hover{
+  border-width: 1px;
+  border-color: rgb(0, 91, 127)!important;
+  border-style: solid;
+  border-radius: 13px;
+  background-color:whitesmoke;
+  width: 155px;
+  height: 45px;
+  text-align: center;
+  color: rgb(0, 91, 127);
+  font-family: Franklin Gothic Heavy;
+  font-size: 23px;
+  margin-top: 80px;
+  transition-duration: 1s;
+
+}
+.STRUJA {
+  font-size: 45px;
+  font-family: "Franklin Gothic Heavy";
+  color: rgb(147, 157, 159);
+  margin: auto;
+  text-align: center;
+  width: 218px;
+  height: 44px;
+  padding: 20px;
+}
+.VODA {
+  font-size: 45px;
+  font-family: "Franklin Gothic Heavy";
+  color: rgb(147, 157, 159);
+  margin:auto;
+  text-align: center;
+  width: 218px;
+  height: 44px;
+  padding: 20px;
+}
+.ČISTAČ{
+  font-size: 45px;
+  font-family: "Franklin Gothic Heavy";
+  color: rgb(147, 157, 159);
+  margin:auto;
+  text-align: center;
+  width: 218px;
+  height: 44px;
+  padding: 20px;
+}
+.ZGRADA{
+  font-size: 45px;
+  font-family: "Franklin Gothic Heavy";
+  color: rgb(147, 157, 159);
+  margin:auto;
+  text-align: center;
+  width: 218px;
+  height: 44px;
+  padding: 20px;
+}
+.jedinica1 {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 13px;
+  background-color: rgb(0, 91, 127);
+  width: 70px;
+  height: 40px;
+  margin:auto;
+  font-family: Franklin Gothic Heavy;
+  font-size: 23px;
+  color: whitesmoke;
+
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+  border-radius: 13px;
+
+}
+.grid-item {
+  background-color: rgb(225, 225, 225);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  margin: 5px;
+  border-radius: 13px;
+}
+
+.zblizi  {
+  margin-left:  -20px!important;
+  margin-right: -20px!important;
+}
+
+.prikazibtn{
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 13px;
+  background-color: rgb(0, 91, 127);
+  width: 145px;
+  height: 40px;
+  text-align: center;
+  color: whitesmoke;
+  font-family: Franklin Gothic Heavy;
+  font-size: 23px;
+  margin-top: 10px;
+}
+.prikazibtn:hover{
+
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 13px;
+  background-color: whitesmoke;
+  width: 155px;
+  height: 45px;
+  text-align: center;
+  border-color: rgb(0, 91, 127)!important;
+  color: rgb(0, 91, 127);
+  font-family: Franklin Gothic Heavy;
+  font-size: 23px;
+  margin-top: 10px;
+  transition-duration: 1s;
+
+}
+
+.dugmezaslanje{
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 13px;
+  background-color: rgb(0, 91, 127);
+  width: 400px;
+  height: 40px;
+  text-align: center;
+  color: whitesmoke;
+  font-family: Franklin Gothic Heavy;
+  font-size: 23px;
+  margin-top: 80px;
+}
+.dugmezaslanje:hover{
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 13px;
+  background-color: whitesmoke;
+  width: 420px;
+  height: 45px;
+  text-align: center;
+  border-color: rgb(0, 91, 127)!important;
+  color: rgb(0, 91, 127);
+  font-family: Franklin Gothic Heavy;
+  font-size: 23px;
+  margin-top: 80px;
+  transition-duration: 1s;
+}
+
+.racuni_slanje{
+  margin-left: 20px;
+  width: 380px;
+  border-radius: 5px;
+  padding: 7px;
+  border: 2px solid;
+  border-color: whitesmoke;
+  font-family: "Franklin Gothic Heavy";
+  background-color: #005b7f;
+  color: whitesmoke;
+  transition-duration: 0.5s;
+}
+.racuni_slanje:hover{
+  margin-left: 20px;
+  border: 2px solid;
+  width: 380px;
+  border-radius: 5px;
+  padding: 7px;
+  border-color:rgb(0, 91, 127)!important;
+  background-color: whitesmoke;
+  color:#005b7f;
+  transition-duration: 0.5s;
+}

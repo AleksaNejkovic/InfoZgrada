@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center">
+    <a class="navbar-brand" href="http://localhost:3000/upravnik/1" style="margin: 0px;">INFO ZGRADA</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="http://localhost:3000/stanar_stanari/4">Početna </a>
+            </li>
+            <li class="nav-item">
+                <span style="color: azure; margin: 0px 10px;">  |  </span>
+            </li>
+
+            <li class="nav-item active">
+                <a class="nav-link" href="http://localhost:3000/stanar_racuni/4">Računi</a>
+            </li>
+            <li class="nav-item">
+                <span style="color: azure; margin: 0px 10px;" >  |  </span>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="http://localhost:3000/stanar_obavestenja">Obaveštenja</a>
+            </li>
+
+        </ul>
+        <form class="form-inline my-2 my-lg-0 justify-content-center">
+
+            <a href="http://localhost:3000/" class="btn btn-info btn-lg" style="width: 136.672px; ">
+                <span class="glyphicon glyphicon-log-out"></span> Odjavi se
+            </a>
+
+        </form>
+
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row justify-content-center my-5" style="display: block; text-align: center">
+       <form action="/stanar_racuni/struja/4" method="post">
+           <input type="submit" value="Prikazi racune za struju" class="dugme" style="width: 350px">
+       </form>
+        <form action="/stanar_racuni/voda/4" method="post">
+            <input type="submit" value="Prikazi racune za vodu" class="dugme" style="width: 350px">
+        </form>
+        <form action="/stanar_racuni/struja/4" method="post">
+            <input type="submit" value="Prikazi racune za cistaca" class="dugme" style="width: 350px">
+        </form>
+        <form action="/stanar_racuni/voda/4" method="post">
+            <input type="submit" value="Prikazi racune za zgradu" class="dugme" style="width: 350px">
+        </form>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="/jquery.js"></script>
+<script type="text/javascript" src="/js/bootstrap.js"></script>
+</body>
+</html>
